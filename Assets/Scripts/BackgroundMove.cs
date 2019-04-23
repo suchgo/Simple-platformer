@@ -19,7 +19,7 @@ public class BackgroundMove : MonoBehaviour {
 
     void MoveBackgrounds()
     {
-        if (cameraPrevPosition != GameObject.FindGameObjectWithTag("MainCamera").transform.position)
+        if (cameraPrevPosition.x != GameObject.FindGameObjectWithTag("MainCamera").transform.position.x)
         {
             offset += Input.GetAxis("Horizontal") * speed;
             GetComponent<Renderer>().material.SetTextureOffset("_MainTex", new Vector2(offset, 0));

@@ -3,6 +3,9 @@
 public class MoveSoundController : MonoBehaviour {
 
     private AudioSource _audioSource;
+    private float _attackTimer, _attackDelay = 0.34f;
+    private byte i = 0;
+    public AudioClip[] audioClips;
 
     // Use this for initialization
     void Start () {
@@ -16,17 +19,16 @@ public class MoveSoundController : MonoBehaviour {
 
     void PlayMoveSound()
     {
-        if (transform.parent.GetComponent<CharacterController>().grounded)
+        if (transform.parent.GetComponent<CharacterController>().Timer(ref _attackTimer, _attackDelay))
         {
-            if (Input.GetButton("Horizontal") && transform.parent.GetComponent<CharacterController>()._canMove)
+            if (transform.parent.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).IsName("Run"))
             {
-                if (!_audioSource.isPlaying)
-                    _audioSource.Play();
+                _audioSource.PlayOneShot(audioClips[i]);
+                i += 1;
+                if (i > 1)
+                    i = 0;
+                _attackTimer = Time.time;
             }
-            else
-                _audioSource.Pause();
         }
-        else
-            _audioSource.Pause();
     }
 }

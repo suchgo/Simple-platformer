@@ -1,51 +1,84 @@
 fileFormatVersion: 2
-guid: f68f1fb88bb10f94c8e22b62aa77e4d2
-timeCreated: 1528366170
-licenseType: Free
+guid: a4e8330aa8a91c44abc9b13eaf36a448
 TextureImporter:
   fileIDToRecycleName:
-    21300000: CharacterIdle_1
-    21300002: CharacterMove_1
-    21300004: CharacterMove_2
-    21300006: CharacterMove_3
-    21300008: CharacterMove_4
-    21300010: CharacterMove_5
-    21300012: CharacterJump
-    21300014: CharacterIdle_2
-    21300016: CharacterIdle_3
-    21300018: CharacterIdle_4
-    21300020: CharacterDie_3
-    21300022: CharacterDie_1
-    21300024: CharacterDie_2
-    21300026: Character_Idle 1
-    21300028: Character_Idle 2
-    21300030: Character_Idle 3
-    21300032: Character_Idle 4
-    21300034: Character_Idle 5
-    21300036: Character_Idle 6
-    21300038: Character_Idle 7
-    21300040: Character_Idle 8
-    21300042: Character_Idle 9
-    21300044: Character_Idle 10
-    21300046: Character_Idle 11
-    21300048: Character_Idle 12
-    21300050: Character_Jump 1
-    21300052: Character_Jump 2
-    21300054: Character_Run 1
-    21300056: Character_Run 2
-    21300058: Character_Run 3
-    21300060: Character_Run 4
-    21300062: Character_Run 5
-    21300064: Character_Run 6
-    21300066: Character_Run 7
-    21300068: Character_Run 8
-    21300070: Character_Falling 1
-    21300072: Character_Falling 2
-    21300074: Character_Die 1
-    21300076: Character_Die 2
-    21300078: Character_Die 3
+    21300000: Character_Idle_1
+    21300002: Character_Idle_2
+    21300004: Character_Idle_3
+    21300006: Character_Idle_4
+    21300008: Characte1_Run (1)
+    21300010: Characte1_Run (2)
+    21300012: Characte1_Run (3)
+    21300014: Characte1_Run (4)
+    21300016: Characte1_Run (5)
+    21300018: Characte1_Run (6)
+    21300020: Characte1_Jump (1)
+    21300022: Characte1_Jump (2)
+    21300024: Characte1_Jump (3)
+    21300026: Characte1_Jump (4)
+    21300028: Characte1_Jump (5)
+    21300030: Characte1_Jump (6)
+    21300032: Characte1_Jump (7)
+    21300034: Characte1_Jump (8)
+    21300036: Characte1_Fall (1)
+    21300038: Characte1_Fall (2)
+    21300040: Character_Attack1_1
+    21300042: Character_Attack1_2
+    21300044: Character_Attack1_3
+    21300046: Character_Attack1_4
+    21300048: Character_Attack1_5
+    21300050: Character_Attack1_6
+    21300052: Character_Attack2_1
+    21300054: Character_Attack2_2
+    21300056: Character_Attack2_3
+    21300058: Character_Attack2_4
+    21300060: Character_Attack2_5
+    21300062: Character_Attack3_1
+    21300064: Character_Attack3_2
+    21300066: Character_Attack3_3
+    21300068: Character_Attack3_4
+    21300070: Character_Attack3_5
+    21300072: Character_Attack3_6
+    21300074: Character_Idle(Whithout_sword)_1
+    21300076: Character_Idle(Whithout_sword)_2
+    21300078: Character_Idle(Whithout_sword)_3
+    21300080: Character_Idle(Whithout_sword)_4
+    21300082: Character_Hurt_1
+    21300084: Character_Hurt_2
+    21300086: Character_Hurt_3
+    21300088: Character_Die_1
+    21300090: Character_Die_2
+    21300092: Character_Die_3
+    21300094: Character_Die_4
+    21300096: Character_Die_5
+    21300098: Character_Die_6
+    21300100: Character_Die_7
+    21300102: Character_AirAttack2_3
+    21300104: Character_AirAttack3_1
+    21300106: Character_AirAttack3_2
+    21300108: Character_AirAttack3_3
+    21300110: Character_AirAttack3_4
+    21300112: Character_AirAttack3_5
+    21300114: Character_AirAttack3_6
+    21300116: Character_AirAttack1_1
+    21300118: Character_AirAttack1_2
+    21300120: Character_AirAttack1_3
+    21300122: Character_AirAttack1_4
+    21300124: Character_AirAttack2_1
+    21300126: Character_AirAttack2_2
+    21300128: Character_Cast_Start_1
+    21300130: Character_Cast_Start_2
+    21300132: Character_Cast_Start_3
+    21300134: Character_Cast_Start_4
+    21300136: Character_Cast_Start_5
+    21300138: Character_Cast_Mid_1
+    21300140: Character_Cast_Mid_2
+    21300142: Characte1_Crouch_1
+    21300144: Characte1_Crouch_2
+    21300146: Characte1_Crouch_3
+    21300148: Characte1_Crouch_4
   externalObjects: {}
-  serializedVersion: 4
+  serializedVersion: 7
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -63,6 +96,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -73,7 +108,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: 0
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -85,18 +120,21 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 14
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 16
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -105,7 +143,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Standalone
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: 4
@@ -114,7 +154,9 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 1
-  - buildTarget: Android
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -123,390 +165,1521 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Character_Idle 1
+      name: Character_Idle_1
       rect:
         serializedVersion: 2
-        x: 1
-        y: 77
-        width: 21
-        height: 34
+        x: 150
+        y: 371
+        width: 50
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: d01c4afd49694914aa3dd37c6fc5adf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
-      name: Character_Idle 2
+      name: Character_Idle_2
       rect:
         serializedVersion: 2
-        x: 23
-        y: 77
-        width: 21
-        height: 34
+        x: 200
+        y: 371
+        width: 50
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 522f1ff97bf4d9046ac2317efb337e5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
-      name: Character_Idle 3
+      name: Character_Idle_3
       rect:
         serializedVersion: 2
-        x: 45
-        y: 77
-        width: 21
-        height: 34
+        x: 250
+        y: 371
+        width: 50
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: fd1848df094a59f45aad944cdd2549d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
-      name: Character_Idle 4
+      name: Character_Idle_4
       rect:
         serializedVersion: 2
-        x: 67
-        y: 77
-        width: 21
-        height: 34
+        x: 300
+        y: 371
+        width: 50
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 4bbff2853a73ecf4c8439f884270b23c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
-      name: Character_Idle 5
+      name: Characte1_Run (1)
       rect:
         serializedVersion: 2
-        x: 89
-        y: 77
-        width: 21
-        height: 34
+        x: 50
+        y: 519
+        width: 50
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9848ce28da8188f43bfedb899d1f0ba2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
-      name: Character_Idle 6
+      name: Characte1_Run (2)
       rect:
         serializedVersion: 2
-        x: 111
-        y: 77
-        width: 21
-        height: 34
+        x: 100
+        y: 519
+        width: 50
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 81fb116e71c78ea4c8e095e36356f9f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
-      name: Character_Idle 7
+      name: Characte1_Run (3)
       rect:
         serializedVersion: 2
-        x: 133
-        y: 77
-        width: 21
-        height: 34
+        x: 150
+        y: 519
+        width: 50
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 5794381e53485fb4da9f06a8ed6eab78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
-      name: Character_Idle 8
+      name: Characte1_Run (4)
       rect:
         serializedVersion: 2
-        x: 155
-        y: 77
-        width: 21
-        height: 34
+        x: 200
+        y: 519
+        width: 50
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0ba32b4fd5a94cb41912b4077de69334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
-      name: Character_Idle 9
+      name: Characte1_Run (5)
       rect:
         serializedVersion: 2
-        x: 178
-        y: 77
-        width: 21
-        height: 34
+        x: 250
+        y: 519
+        width: 50
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 0055f972353476c4ba629f344a9ba7eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
-      name: Character_Idle 10
+      name: Characte1_Run (6)
       rect:
         serializedVersion: 2
-        x: 201
-        y: 77
-        width: 21
-        height: 34
+        x: 300
+        y: 519
+        width: 50
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: c0b6848ee71246744aac17c187943e9c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
-      name: Character_Idle 11
+      name: Characte1_Jump (1)
       rect:
         serializedVersion: 2
-        x: 224
-        y: 77
-        width: 21
-        height: 34
+        x: 0
+        y: 482
+        width: 50
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 443f02f815fba7d4a95e1aae0fc00986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
-      name: Character_Idle 12
+      name: Characte1_Jump (2)
       rect:
         serializedVersion: 2
-        x: 247
-        y: 77
-        width: 21
-        height: 34
+        x: 50
+        y: 482
+        width: 50
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: ed95d0d40f643be4494349be2404683a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
-      name: Character_Jump 1
+      name: Characte1_Jump (3)
       rect:
         serializedVersion: 2
-        x: 1
+        x: 100
+        y: 482
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46744c67338b7654488677273cc4e193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characte1_Jump (4)
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 482
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f99295ccfe5bce4fafe84eb446c0236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characte1_Jump (5)
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 482
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf85e2069c3e22a4bb88853330feeb28
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characte1_Jump (6)
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 482
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f88b034771d6ba4794a73d650897a45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characte1_Jump (7)
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 482
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff32502a57579b141bbdc1900d0ed8bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characte1_Jump (8)
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 445
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b42494fabfc1694db2dcbceb494ebd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characte1_Fall (1)
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 445
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ec3b03f2948b544a7b56f1d3085828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characte1_Fall (2)
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 445
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fc8c907414c37d4db5876d13a487efd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Attack1_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 334
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a153ba66bc67db44bda9934b0ad03b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Attack1_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 334
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b8390c482f25e49b68dfa751e4ccb1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Attack1_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 334
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2994688e4503434dae5c5ddbb84d53a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Attack1_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 334
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e991e64760e7a479ddffb6de6c46d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Attack1_5
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 334
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90be3f9cab792b346b6b11a47704eced
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Attack1_6
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 334
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a151114e184974591e9be3b3b6f52f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Attack2_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 334
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e2096c474cf844aa142fadcc82fbe6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Attack2_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb1b7c15c4bb4841aa5bc3ab9f637d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Attack2_3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 297
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0d6526547dd8df4ca2c66a853d73a9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Attack2_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 297
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a5b18f02dd9824ca89b44bbef769c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Attack2_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 297
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335bd421a36ca274485cb7009d25c4bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Attack3_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 297
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3105f0d065810754688d9c9994458b16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Attack3_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 297
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700991d4038c55144a1b4e813a0f00aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Attack3_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 297
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404fea89b126a044f9a476225b5b9ece
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Attack3_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b2c7b258696ef47a77b636959e797e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Attack3_5
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 260
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6c2b192a278bec499b5a84fe1e6b79d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Attack3_6
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 260
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d487ac8fd361604a999738078bad2eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Idle(Whithout_sword)_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 556
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f79a226d41ff14b9b2fb4c4ac73f2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Idle(Whithout_sword)_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 556
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e585f2fda8d38fd4a87676b2b913b7be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Idle(Whithout_sword)_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 556
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7564a6b3af5a4fe4c986567247022081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Idle(Whithout_sword)_4
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 556
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3e6b0bedde8c24c877b9c591511129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Hurt_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 260
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631f5f79903bcdc4e873f406b45d8593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Hurt_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 260
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056ff0dd72dd9be4eb764bd87e2ea2ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Hurt_3
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 260
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48fe0503514f76f4b9e2b91a928bd781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Die_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 260
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dfaf314f2d2b24188dd0a418973f6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Die_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ea42bebcb519540a28f95fac196a62
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Die_3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 223
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50704b52517217e49b04492d57001c7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Die_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 223
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a255c4f37ad51f4882fc70e7a66e1af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Die_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 223
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bec62a91b7f72a468bb37beb8bda5b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Die_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 223
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a14222a95526d42816bb6f63b9cee6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Die_7
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 223
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5433b948db31f4093762523846e47e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_AirAttack2_3
+      rect:
+        serializedVersion: 2
+        x: 200
         y: 38
-        width: 21
-        height: 35
+        width: 50
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 11a74494ad2322849b14ddaa5db58130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
-      name: Character_Jump 2
+      name: Character_AirAttack3_1
       rect:
         serializedVersion: 2
-        x: 24
+        x: 250
         y: 38
-        width: 21
-        height: 35
+        width: 50
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 09706ac6c644e254f819575c68b9d633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
-      name: Character_Run 1
+      name: Character_AirAttack3_2
       rect:
         serializedVersion: 2
-        x: 1
-        y: 1
-        width: 21
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Character_Run 2
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 1
-        width: 21
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Character_Run 3
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 1
-        width: 21
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Character_Run 4
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 1
-        width: 21
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Character_Run 5
-      rect:
-        serializedVersion: 2
-        x: 113
-        y: 1
-        width: 21
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Character_Run 6
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 1
-        width: 21
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Character_Run 7
-      rect:
-        serializedVersion: 2
-        x: 178
-        y: 1
-        width: 21
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Character_Run 8
-      rect:
-        serializedVersion: 2
-        x: 206
-        y: 1
-        width: 21
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Character_Falling 1
-      rect:
-        serializedVersion: 2
-        x: 53
+        x: 300
         y: 38
-        width: 21
-        height: 35
+        width: 50
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: a6ab3ce9978112a43acc7ed654575370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
-      name: Character_Falling 2
+      name: Character_AirAttack3_3
       rect:
         serializedVersion: 2
-        x: 78
+        x: 0
+        y: 1
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152b2146052b27340b9eb454196b5c04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_AirAttack3_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db74e839ad360649b9e94ad6d935ab7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_AirAttack3_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4146020f9392644b554f177341c241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_AirAttack3_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b03d5563a1cc143a1eb447255878ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_AirAttack1_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 75
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4743c0d38602a4d863c1c765553690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_AirAttack1_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 75
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cb0b3602daee448b3ad7b7583a9d98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_AirAttack1_3
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 38
-        width: 21
-        height: 35
+        width: 50
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 9db000ac208637e46af768cbc8787bef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
-      name: Character_Die 1
+      name: Character_AirAttack1_4
       rect:
         serializedVersion: 2
-        x: 108
-        y: 36
-        width: 21
-        height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Character_Die 2
-      rect:
-        serializedVersion: 2
-        x: 136
+        x: 50
         y: 38
-        width: 37
-        height: 37
+        width: 50
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 028d19192a7c64e43bb67d165b2b4b87
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
-      name: Character_Die 3
+      name: Character_AirAttack2_1
       rect:
         serializedVersion: 2
-        x: 187
-        y: 39
-        width: 37
-        height: 37
+        x: 100
+        y: 38
+        width: 50
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
+      bones: []
+      spriteID: 2f37050c6677cfa48b7daad30565ce3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_AirAttack2_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 38
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8c5992a7e90b94f92a175524c37ac7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Cast_Start_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 112
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38bd31fd4e8f1ff45abcce42890baa04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Cast_Start_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 112
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70580138d9144ce4fb6fc960aa491f9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Cast_Start_3
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 112
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be88a2892691bc64ba8a9cbef89e9c98
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Cast_Start_4
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 112
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acedd68fc4c0fe45838d5f55e635019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Cast_Start_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 112
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0134b2656ae413a4fb64acf9281b836d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Cast_Mid_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 75
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15efddc85491404eac53ad150f4818d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character_Cast_Mid_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 75
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6430fd3465adf4d9d6c34f9a54f0c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characte1_Crouch_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 556
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa96223e0b7ece049957ff840427f51a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characte1_Crouch_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 556
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15a18584ce47f04b9b372b6eec2eacd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characte1_Crouch_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 556
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1683ce15b389e49a38774dcb6b9904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Characte1_Crouch_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 519
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f10e8d4e15703f48b95467b9863e4d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: d95a1a996ef918e40a078c0efc2e949c
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

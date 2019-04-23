@@ -9,17 +9,25 @@ public class Game : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		
-	}
+        SetCursorState(CursorLockMode.Locked);
+    }
 
     // Update is called once per frame
     void Update () {
         ShowInGameMenu();
     }
 
+    public void SetCursorState(CursorLockMode wantedMode)
+    {
+        Cursor.lockState = wantedMode;
+        // Hide cursor when locking
+        Cursor.visible = (CursorLockMode.Locked != wantedMode);
+    }
+
     public void ShowLosePanel()
     {
         losePanel.SetActive(true);
+        SetCursorState(CursorLockMode.None);
     }
 
     void ShowInGameMenu()
@@ -28,9 +36,9 @@ public class Game : MonoBehaviour {
         {
             if (Input.GetButtonDown("Cancel"))
             {
+                SetCursorState(CursorLockMode.None);
                 inGameMenuPanel.SetActive(true);
                 Time.timeScale = 0;
-                character.transform.GetChild(0).GetComponent<MoveSoundController>().enabled = false;
                 character.GetComponent<CharacterController>().enabled = false;
             }
         }

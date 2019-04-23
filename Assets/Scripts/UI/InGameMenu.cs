@@ -19,9 +19,9 @@ public class InGameMenu : MonoBehaviour {
 
     public void Resume()
     {
+        GameObject.FindGameObjectWithTag("GameController").GetComponent<Game>().SetCursorState(CursorLockMode.Locked);
         gameObject.SetActive(false);
         Time.timeScale = 1;
-        character.transform.GetChild(0).GetComponent<MoveSoundController>().enabled = true;
         character.GetComponent<CharacterController>().enabled = true;
     }
 
